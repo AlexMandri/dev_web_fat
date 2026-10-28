@@ -15,12 +15,17 @@ body{
     background: olivedrab;
 }
 main{
+    display: flex;
     flex: 1;
 }
 main aside nav{
     display: flex;
     flex-direction: column;
+    text-align: center;
     padding: 1rem;
+    background-color: aliceblue;
+    width: 8rem;
+    height: 100%;
 }
 nav a{
     padding: 0.2rem;
