@@ -10,11 +10,12 @@
 
 <body>
     <header>
+        <h1>Programação Web</h1>
         <nav>
             <select name="aulas" id="aula" onchange="parent.frames['frame'].location.href=this.value;">
                 <option value="" disabled selected>Selecione uma aula</option>
                 <option value="./pages/aula1/aula1.html">01 Introdução ao HTML</option>
-                <option value="./pages/aula2/aula1.html">02 Tabelas e Multimidia</option>
+                <option value="./pages/aula2/aula2.html">02 Tabelas e Multimidia</option>
                 <option value="./pages/aula3/aula1.html">03 Formulários</option>
                 <option value="./pages/aula4/aula1.html">04 Atividade Prática HTML</option>
                 <option value="./pages/aula5/aula1.html">05 Introdução ao CSS</option>
@@ -27,15 +28,16 @@
                 <option value="./pages/aula12/aula1.html">12 Projeto Criando Interação com JavaScript</option>
                 <option value="./pages/aula13/aula1.html">13 Domínio Web</option>
                 <option value="./pages/aula14/aula1.html">14 Hospedagem</option>
-                <option value="./pages/aula15/aula1.html">15 Protocolos e métodos para subir arquivos no servidor web</option>
+                <option value="./pages/aula15/aula1.html">15 Protocolos e métodos para subir arquivos no servidor web
+                </option>
                 <option value="./pages/aula16/aula1.html">16 Subindo o seu site</option>
             </select>
         </nav>
-        <p>Programação Web</p>
+
     </header>
     <main>
         <section>
-            <iframe id="tela" name="frame" srcdoc="<h2>Programação Web</h2>">
+            <iframe id="tela" name="frame" srcdoc="<h2>Programação Web</h2>" sandbox="sandbox" frameborder="0" referrerpolicy="no-referrer">
                 <p>Infelizmente este navegador não é compativel</p>
             </iframe>
         </section>
