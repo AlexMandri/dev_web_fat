@@ -1,0 +1,12 @@
+form{
+    margin: 1rem;
+    border: 1px solid black;
+}
+.form-control{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.form-control label{
+    display: block;
+    margin: 5px 0;
+}

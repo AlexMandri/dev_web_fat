@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style_aula.css">
+    <link rel="stylesheet" href="./aula3.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formuário</h1>
+    <p>Os formulários HTML são um dos principais recursos para coletar informações dos usuários em uma página web. Eles
+        permitem que os visitantes insiram dados como nome, endereço, e-mail, senha, dentre outros. Além disso, com
+        formulários é possível realizar pesquisas, criar enquetes e permitir que os usuários enviem mensagens
+        diretamente para o proprietário do site.</p>
+    <p>
+        Para criar um formulário HTML, é necessário utilizar a tag &lt;form&gt;. Esta tag contém diversos atributos que
+        definem as
+        características do formulário, como o método de envio (GET ou POST), o endereço de destino, entre outros. Além
+        disso, é possível utilizar outras tags HTML para criar campos de entrada, como &lt;input&gt;, &lt;textarea&gt;,
+        &lt;select&gt; e &lt;button&gt;.
+    </p>
+    <p>A tag &lt;input&gt; é uma das mais importantes para criar campos de entrada em um formulário HTML. Ela possui
+        diversos tipos de atributos que permitem criar diferentes tipos de campos de entrada, como:</p>
+    <ul>
+        <li>text: campo de texto simples;</li>
+        <li>password: campo de senha, onde o texto digitado é ocultado;</li>
+        <li>checkbox: caixa de seleção para escolhas múltiplas;</li>
+        <li>radio: botões de seleção para escolhas únicas;</li>
+        <li>submit: botão de envio do formulário;</li>
+        <li>reset: botão para limpar os dados do formulário.</li>
+    </ul>
+    <p>
+        Além disso, a tag &lt;textarea&gt; permite criar um campo de texto maior, adequado para coletar informações mais
+        extensas, como comentários e feedbacks dos usuários.
+        A tag &lt;select&gt; é utilizada para criar menus de seleção, permitindo que o usuário escolha entre diversas
+        opções. É possível utilizar a tag &lt;option&gt; para definir as opções disponíveis no menu.
+    </p>
+    <p>Por fim, a tag &lt;button&gt; permite criar botões em um formulário, que podem ser utilizados para executar ações, como enviar o formulário ou limpar os dados.</p>
+    <p>Em resumo, os formulários HTML são uma ferramenta essencial para coletar informações dos usuários em uma página web. Com diversas tags e atributos, é possível criar campos de entrada, menus de seleção e botões, para
+        personalizar o formulário de acordo com as necessidades do site.</p>
+    <p>
+        Vamos apresentar alguns exemplos de utilização de tags de formulários em um site. Exemplo do uso de
+        &lt;form&gt;:
+    </p>
+    <form action="inscricao.php" method="post">
+        <div class="form-control">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-control">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-control">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+        </div>
+        <div class="form-control">
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso" required>
+                <option value="programacao">Programação</option>
+                <option value="design">Design Gráfico</option>
+                <option value="marketing">Marketing Digital</option>
+            </select>
+        </div>
+
+        <div class="form-control"><button type="submit">Enviar</button></div>
+    </form>
+    <p>
+        Neste exemplo, temos um formulário de inscrição em um curso, onde o usuário deve preencher seu nome, e-mail, telefone e escolher o curso desejado. Utilizamos as tags &lt;label&gt; para criar rótulos para cada campo de entrada, &lt;input&gt; para criar campos de entrada de texto e telefone, e a tag &lt;select&gt; para criar um menu de seleção com as
+        opções de curso. O atributo required foi utilizado para tornar todos os campos obrigatórios e o botão de envio foi criado com a tag &lt;button&gt;.
+    </p>
+    <p>Formulário de contato:</p>
+    <p>Exemplo do uso de &lt;form&gt;, para contato:</p>
+    <form action="contato.php" method="post">
+        <div class="form-control">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-control">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-control">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <div class="form-control"><button type="submit">Enviar</button></div>
+    </form>
+</body>
+
+</html>
