@@ -10,86 +10,257 @@
 </head>
 
 <body>
-    <h1>Tabelas</h1>
-    <h3>Tabela Normal</h3>
-    <table>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-            <th>Telefone</th>
-        </tr>
-        <tr>
-            <td>João</td>
-            <td>49</td>
-            <td>(11)99992-8454</td>
-        </tr>
-        <tr>
-            <td>Patricia</td>
-            <td>45</td>
-            <td>(11)99992-8454</td>
-        </tr>
-        <tr>
-            <td>Fernanda</td>
-            <td>25</td>
-            <td>(11)99992-8454</td>
-        </tr>
-    </table>
-    <h3>Tabela com colspan</h3>
-    <table>
-        <tr>
-            <th>Nome</th>
-            <th>idade</th>
-            <th colspan="2">telefone</th>
-        </tr>
-        <tr>
-            <td>João</td>
-            <td>29</td>
-            <td>(11) 99922-2299</td>
-            <td>(11) 99922-2299</td>
-        </tr>
-        <tr>
-            <td>Patricia</td>
-            <td>45</td>
-            <td>(11) 99922-2299</td>
-            <td>(11) 99922-2299</td>
-        </tr>
-        <tr>
-            <td>Fernanda</td>
-            <td>25</td>
-            <td>(11) 99922-2299</td>
-            <td>(11) 99922-2299</td>
-        </tr>
-    </table>
-    <h3>Tabela Rowspan</h3>
-    <table>
-        <tr>
-            <th>Sexo</th>
-            <th>Nome</th>
-            <th>Idade</th>
-            <th colspan="2">Telefone</th>
-        </tr>
-        <tr>
-            <td>M</td>
-            <td>João</td>
-            <td>29</td>
-            <td>(46) 99922-2299</td>
-            <td>(46) 99922-2299</td>
-        </tr>
-        <tr>
-            <td rowspan="2">F</td>
-            <td>Patrícia</td>
-            <td>45</td>
-            <td>(46) 99922-2299</td>
-            <td>(46) 99922-2299</td>
-        </tr>
-        <tr>
-            <td>Fernanda</td>
-            <td>25</td>
-            <td>(46) 99922-2299</td>
-            <td>(46) 99922-2299</td>
-        </tr>
-    </table>
+    <section>
+        <h1>Tabelas</h1>
+        <h3>Tabela Normal</h3>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Telefone</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>49</td>
+                <td>(11)99992-8454</td>
+            </tr>
+            <tr>
+                <td>Patricia</td>
+                <td>45</td>
+                <td>(11)99992-8454</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>25</td>
+                <td>(11)99992-8454</td>
+            </tr>
+        </table>
+        <h3>Tabela com colspan</h3>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>idade</th>
+                <th colspan="2">telefone</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>29</td>
+                <td>(11) 99922-2299</td>
+                <td>(11) 99922-2299</td>
+            </tr>
+            <tr>
+                <td>Patricia</td>
+                <td>45</td>
+                <td>(11) 99922-2299</td>
+                <td>(11) 99922-2299</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>25</td>
+                <td>(11) 99922-2299</td>
+                <td>(11) 99922-2299</td>
+            </tr>
+        </table>
+        <h3>Tabela Rowspan</h3>
+        <table>
+            <tr>
+                <th>Sexo</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th colspan="2">Telefone</th>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>João</td>
+                <td>29</td>
+                <td>(46) 99922-2299</td>
+                <td>(46) 99922-2299</td>
+            </tr>
+            <tr>
+                <td rowspan="2">F</td>
+                <td>Patrícia</td>
+                <td>45</td>
+                <td>(46) 99922-2299</td>
+                <td>(46) 99922-2299</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>25</td>
+                <td>(46) 99922-2299</td>
+                <td>(46) 99922-2299</td>
+            </tr>
+        </table>
+    </section>
+    <main>
+        <h2>Tags de Tabelas</h2>
+        <p>As tags de tabelas são utilizadas para criar tabelas em uma página HTML. As tabelas são úteis para apresentar
+            informações tabulares, como dados estatísticos, preços de produtos, informações de contato, entre outros.
+        </p>
+        <p>Para criar uma tabela em HTML, é necessário utilizar as seguintes tags:</p>
+        <p>
+            &lt;table&gt; - Define a tabela
+        </p>
+        <p>A tag &lt;table&gt; é utilizada para definir a tabela em HTML.</p>
+        <p>Atributos da tag &lt;table&gt;:</p>
+        <p>border: define a largura da borda da tabela.</p>
+        <p>Exemplo:</p>
+        <p>Exemplo do uso de &lt;table&gt;</p>
+        <pre class="codigoHtml"><code>
+            &lt;table border="1"&gt;
+            ...
+            &lt;/table&gt;
+        </code>
+        </pre>
+        <p>&lt;tr&gt; - Define uma linha da tabela</p>
+        <p>A tag &lt;tr&gt; é utilizada para definir uma linha da tabela.</p>
+        <p>Exemplo:</p>
+        <p>Exemplo do uso de &lt;tr&gt;</p>
+        <pre class="codigoHtml"><code>
+            &lt;table&gt;
+                &lt;tr&gt;
+                ...
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            </code>
+        </pre>
+        <p>&lt;th&gt; - Define uma célula de cabeçalho da tabela</p>
+        <p>A tag &lt;th&gt; é utilizada para definir uma célula de cabeçalho da tabela. As células de cabeçalho são
+            geralmente utilizadas na primeira linha da tabela e são exibidas em negrito.</p>
 
+        <p>Atributos da tag &lt;th&gt;:</p>
+        <p>colspan: define o número de colunas que a célula deve ocupar.</p>
+        <p>rowspan: define o número de linhas que a célula deve ocupar.</p>
+        <h4>Exemplo do uso de &lt;th&gt;</h4>
+        <pre class="codigoHtml"><code>
+            &lt;table&gt;
+                &lt;tr&gt;
+                &lt;th&gt;Nome&lt;/th&gt;
+                &lt;th&gt;Idade&lt;/th&gt;
+                &lt;th&gt;País&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;/table&gt;
+        </code>
+        </pre>
+        
+        <p>&lt;td&gt; - Define uma célula da tabela.</p>
+        <p>A tag &lt;td&gt; é utilizada para definir uma célula da tabela.</p>
+        <h4>Atributos da tag &lt;td&gt;:</h4>
+        <ul>
+            <li>colspan: define o número de colunas que a célula deve ocupar.</li>
+            <li>rowspan: define o número de linhas que a célula deve ocupar.</li>
+        </ul>
+
+        <h4>Exemplo do uso de &lt;td&gt;</h4>
+        
+        <pre class="codigoHtml"><code>
+            &lt;table&gt;
+                &lt;tr&gt;
+                &lt;td&gt;João&lt;/td&gt;
+                &lt;td&gt;30&lt;/td&gt;
+                &lt;td&gt;Brasil&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            </code>
+        </pre>
+
+        <p>&lt;caption&gt; - Define um título para a tabela</p>
+        <p>A tag &lt;caption&gt; é utilizada para definir um título para a tabela.</p>
+        <h4>Exemplo do uso de &lt;caption&gt;</h4>
+
+        <pre class="codigoHtml"> <code>
+            &lt;table&gt;
+                &lt;caption&gt;Tabela de Preços</caption>
+                    ...
+            &lt;/table&gt;
+        </code>
+        </pre>
+       
+        <p>Essas são algumas das tags de tabelas mais comuns utilizadas em uma página HTML. É importante lembrar que a
+            utilização correta das tags de tabelas e seus atributos é essencial para garantir a correta formatação da
+            tabela e sua apresentação visual adequada para o usuário.</p>
+        <h4>Elementos de Multimídia</h4>
+        <p>Além de texto e imagens, o HTML também permite a inserção de elementos de multimídia, como vídeos, áudios e
+            animações. Neste capítulo, vamos abordar algumas das tags de multimídia mais comuns em HTML.</p>
+        <ol>
+            <li>
+                <article>
+                    <h4>Inserindo vídeos - &lt;video&gt;</h4>
+                    <p>A tag &lt;video&gt; é utilizada para inserir vídeos em uma página HTML.</p>
+                    <p>Atributos da tag &lt;video&gt;:</p>
+                    <ul>
+                        <li>src: define a URL do vídeo.</li>
+                        <li>width: define a largura do vídeo em pixels.</li>
+                        <li>height: define a altura do vídeo em pixels.</li>
+                        <li>controls: adiciona controles de reprodução (play, pause, volume, etc) ao vídeo.</li>
+                    </ul>
+                    <h4>Exemplo do uso de &lt;video&gt;</h4>
+                    <pre class="codigoHtml"><code>
+                        &lt;video src="video.mp4" width="640" height="360" controls&gt;&lt;/video&gt;
+                    </code>
+                    </pre>
+                </article>
+            </li>
+
+            <li>
+                <article>
+                    <h4>&lt;audio&gt; - Inserindo áudio</h4>
+                    <p>A tag &lt;audio&gt; é utilizada para inserir áudios em uma página HTML.</p>
+                    <h5>Atributos da tag &lt;audio&gt;:</h5>
+                    <ul>
+                        <li>src: define a URL do áudio.</li>
+                        <li>controls: adiciona controles de reprodução (play, pause, volume, etc) ao áudio.</li>
+                    </ul>
+                    <h4>Exemplo do uso de &lt;audio&gt;</h4>
+                    <pre class="codigoHtml"><code>
+                        &lt;audio src="audio.mp3" controls&gt;&lt;/audio&gt;
+                    </code>
+                    </pre>
+                </article>
+            </li>
+
+            <li>
+                <article>
+                    <h4>&lt;source&gt; - Inserindo múltiplos formatos de mídia</h4>
+                    <p>A tag&lt;source&gt; é utilizada para especificar múltiplos formatos de mídia para o
+                        mesmo conteúdo. Isso é útil para garantir que o conteúdo seja reproduzido em
+                        todos os navegadores e dispositivos.
+                    </p>
+                    <h5>Atributos da tag &lt;source&gt;:</h5>
+                    <ul>
+                        <li>src: define a URL do conteúdo.</li>
+                        <li>type: define o tipo MIME do conteúdo.</li>
+                    </ul>
+                    <h4>Exemplo do uso de &lt;source&gt;</h4>
+                    <pre class="codigoHtml"><code>
+                    &lt;video width="640" height="360" controls&gt;
+                        &lt;source src="video.mp4" type="video/mp4"&gt;
+                        &lt;source src="video.webm" type="video/webm"&gt;
+                        &lt;source src="video.ogg" type="video/ogg"&gt;
+                        Seu navegador não tem suporte para esse tipo de arquivo.
+                    &lt;/video&gt;
+                    </code>
+                    </pre>
+                </article>
+            </li>
+
+            <li>
+                <article>
+                    <h4>&lt;embed&gt; - Inserindo animações</h4>
+                    <p>A tag &lt;embed&gt; é utilizada para inserir animações em uma página HTML.</p>
+                    <h5>Atributos da tag &lt;embed&gt;:</h5>
+                    <ul>
+                        <li>src: define a URL da animação.</li>
+                        <li>width: define a largura da animação em pixels.</li>
+                        <li>height: define a altura da animação em pixels.</li>
+                    </ul>
+                    <h4> Exemplo do uso de &lt;source&gt;</h4>
+                    <pre class="codigoHtml"><code>
+                        &lt;embed src="animacao.swf" width="640" height="360"&gt;
+                    </code></pre>
+                </article>
+            </li>
+        </ol>
+    </main>
 
 </body>
 
